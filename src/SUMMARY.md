@@ -6,3 +6,5 @@
 
 - [docker compose 配置 mongo](docker-compose-mongo.md)
 
+- [docker compose 配置 etcd](docker-compose-etcd.md)
+

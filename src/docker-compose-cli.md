@@ -69,19 +69,19 @@ docker compose top
 # -i 是 terminal 交互的方式运行
 # -t 是 tty 终端类型
 # 容器 id，可以通过 docker ps 查看
-docker compose exec -it [容器id] /bin/bash
+docker compose exec -it [容器id/容器名称] /bin/bash
 ```
 
 ## 查看 Logs
 ```bash
 # 容器 id，可以通过 docker ps 查看
-docker compose logs [容器id]
+docker compose logs [容器id/容器名称]
 ```
 
 ## 查看 Inspect
 ```bash
 # 容器 id，可以通过 docker ps 查看
-docker compose inspect [容器id]
+docker compose inspect [容器id/容器名称]
 ```
 
 ## 查看 Volumes
