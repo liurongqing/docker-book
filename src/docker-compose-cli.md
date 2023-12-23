@@ -19,7 +19,7 @@ docker compose up -d
 
 停止运行的容器并删除
 ```bash
-# 加上 -rmi all  连镜像也一起删除
+# 加上 --rmi all  连镜像也一起删除
 docker compose down
 ```
 
